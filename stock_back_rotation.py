@@ -42,6 +42,10 @@ def back_return(stock_pools: list, start_date: str, end_date: str, strategy_name
 
 if __name__ == '__main__':
     strategy_name = '轮动策略'
+     # 513100 纳指ETF
+    # 518880 黄金ETF
+    # 159915 创业板ETF
+    # 510300 沪深300ETF
     stock_pools = ['513100', '518880', '159915', '510300']
     start_date = '2018-01-01'
     end_date = '2025-09-02'
