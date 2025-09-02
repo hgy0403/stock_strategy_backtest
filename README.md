@@ -1,7 +1,7 @@
 # stock_strategy_backtest
 股票量化投资策略回测框架
 
-依赖：
+依赖：  
 pip install pandas  
 pip install efinance  
 pip install numpy  
@@ -19,3 +19,6 @@ python stock_back_balance.py
 
 <img width="921" height="493" alt="image" src="https://github.com/user-attachments/assets/b09f0c57-3a40-4620-8733-333dbd7c0db2" />
 
+# 新建策略
+1、根目录下新建，stock_back_XX.py  
+2、strategys目录下新建strategy_XX.py 继承stategy.py中的父类
