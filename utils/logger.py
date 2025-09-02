@@ -1,6 +1,5 @@
 # !/usr/bin/python3
 """
-Authors: hanguangyao
 日志
 """
 import logging
