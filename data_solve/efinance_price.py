@@ -1,6 +1,5 @@
 # !/usr/bin/python3
 """
-Authors: hanguangyao
 基于efinance获取股票数据
 """
 import efinance as ef
