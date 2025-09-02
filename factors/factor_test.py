@@ -1,14 +1,7 @@
 import numpy as np
-import talib
-from tqdm import tqdm
-from data_solve.efinance_price import get_price
-# from utils.tongdaxin import *
+import math
 import pandas as pd
 pd.set_option('display.max_columns', None)
-
-import numpy as np
-import math
-
 
 def add_dongliang_score(df, window_size=20):
     """
