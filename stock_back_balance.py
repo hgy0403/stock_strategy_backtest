@@ -1,6 +1,5 @@
 # !/usr/bin/python3
 """
-Authors: hanguangyao
 量化回测
 """
 import pandas as pd
