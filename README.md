@@ -2,14 +2,12 @@
 股票量化投资策略回测框架
 
 依赖：
-'''
-pip install pandas
-pip install efinance
-pip install numpy
-pip install tqdm
-pip install pyecharts
-pip install exchange_calendars
-'''
+pip install pandas  
+pip install efinance  
+pip install numpy  
+pip install tqdm  
+pip install pyecharts  
+pip install exchange_calendars  
 
 # 轮动策略 
 python stock_back_rotation.py
