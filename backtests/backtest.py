@@ -143,7 +143,7 @@ class StockBacktest:
     def get_backtest_data_batch(self, klt=101, stock_data_num=250):
         """为提高回测效率，采用了批量获取数据进行回测的方式"""
         import os
-        cache_dir = "/Users/hanguangyao/Downloads/predict_results"  # You can change this to your preferred directory
+        cache_dir = "./predict_results"  # You can change this to your preferred directory
         filename = f"stock_{self.strategy_name}_{self.start_date}_{self.end_date}.csv"
         filepath = os.path.join(cache_dir, filename)
         # Check if cached file exists
